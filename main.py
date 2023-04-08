@@ -7,7 +7,7 @@ from selenium import webdriver
 if __name__ == '__main__':
     example_url = 'https://rad.com/'
     example_website = Website(example_url)
-    print(example_website.does_word_exist('software'))
+    print(example_website.does_word_exist('principal quality assurance engineer'))
 
     # create webdriver object
     # driver = webdriver.Chorme()
